@@ -34,7 +34,7 @@
 </head>
 
 <body>
-  <nav class=" navbar navbar-expand-md head_foot_bar">
+  <nav class=" navbar navbar-expand-lg head_foot_bar">
     <div class="left-align">
       <a href="../"><img id="logo" src="../images/logo.png" alt="logo"></a>
     </div>
@@ -77,7 +77,7 @@
       binary formats but, an image extractor was created by choo (3) which can be found
       <a href="https://github.com/choo/etlcdb-image-extractor">here</a>. A sample of the images can be seen below.
     </p>
-    <img src="assets/katakana-classifier/img/random_katakana.png" alt="random katakana image data">
+    <img src="assets/katakana-classifier/img/random_katakana.png" alt="random katakana image data" class="mx-auto d-block img-fluid mt-3 mb-4">
     <p>The images were sorted by their unicode and placed into their respective folders. A method to transform these
       folders into a dataset was created by Utkarsh Garg (4) which can be found
       <a href="towardsdatascience.com/custom-dataset-in-pytorch-part-1-images-2df3152895">here</a> however, for my
@@ -97,7 +97,7 @@
       Below I showcase a couple of my implementations:
     </p>
     <h3>Basic Model</h3>
-    <table class="center">
+    <table class="center mt-3 mb-4">
       <tr>
         <th>Layer</th>
         <th class="left-right-padding">Activation Function</th>
@@ -125,7 +125,7 @@
       </tr>
     </table>
     <h3>Densest Model</h3>
-    <table class="center">
+    <table class="center mt-3 mb-4">
       <tr>
         <th>Layer</th>
         <th class="left-right-padding">Activation Function</th>
@@ -183,7 +183,7 @@
       </tr>
     </table>
     <h3 class="">Conv22 Model</h3>
-    <table class="center">
+    <table class="center mt-3 mb-4">
       <tr>
         <th>Layer</th>
         <th class="left-right-padding">Activation Function</th>
@@ -254,7 +254,7 @@
       the models correctly predicted, based on the label with the highest probablity, divided by the total amount of
       pictures viewed.
     </p>
-    <table>
+    <table class="center mt-3 mb-4">
       <tr>
         <th>Model Name</th>
         <th class="left-right-padding">Training Accuracy</th>
@@ -299,7 +299,7 @@
       </tr>
     </table>
     <p>Below is a graph of Complex Densest's relationship between epochs and accuracy.</p>
-    <img src="assets/katakana-classifier/img/epochaccuracygraph.png" alt="epoch versus accuracy graph">
+    <img src="assets/katakana-classifier/img/epochaccuracygraph.png" alt="epoch versus accuracy graph" class="mx-auto d-block img-fluid mt-3 mb-4">
     <p>
       Based on the testing accuracies, the amount of convolution layers play a larger role with the accuracy than the
       fully-connected as seen with the Complex Densest and Conv 2 models which had 3 and 4 convolution layers
@@ -333,9 +333,9 @@
       blog.paperspace.com/writing-lenet5-from-scratch-in-python/. Accessed 13 Mar. 2022.</p>
 
   </main>
-  <footer class="head_foot_bar">
+  <footer class="head_foot_bar mt-3">
     <div class="one-flex">
-      <p>Copyright © 2023 All rights reserved</p>
+      <p></p>
     </div>
     <div>
       <a href="https://www.linkedin.com/in/zacharydascil"><img class="social-media-logo"
