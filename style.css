@@ -62,3 +62,34 @@ footer {
 #logo {
   max-height: 3rem;
 }
+
+.skill--grid {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.skill--row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.skill--item {
+  max-width: 256px;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 3px;
+  margin: 1rem;
+  box-shadow: 2px 2px black;
+}
+.skill--image {
+  
+  min-height: 48px;
+  padding: 0px;
+  margin: 0px;
+}
