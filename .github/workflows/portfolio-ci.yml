@@ -20,5 +20,6 @@ jobs:
           VALIDATE_HTML: true
           VALIDATE_CSS: true
           VALIDATE_YAML: true
+          VALIDATE_MARKDOWN: true
           VALIDATE_ALL_CODEBASE: false
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
