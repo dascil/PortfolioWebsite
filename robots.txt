@@ -1,6 +1,6 @@
 User-agent: *
 Allow: /index.html
-Allow: /projects.html
+Allow: /projects/index.html
 Allow: /projects/katakana-classifier.html
-Disallow: /contact.html
-Disallow: /resume.html
+Disallow: /contact/index.html
+Disallow: /resume/index.html
