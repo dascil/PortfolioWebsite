@@ -1,5 +1,5 @@
 body {
-  font-family: 'Arvo', serif;
+  font-family: Arvo, serif;
   font-size: 1rem;
   height: 100vh;
   display: flex;
@@ -36,7 +36,7 @@ footer {
   margin-right: auto;
 }
 
-.head_foot_bar {
+.head-foot-bar {
   background-color: #2b5797;
   color: aliceblue;
   padding: 32px;
@@ -50,10 +50,12 @@ footer {
   margin-left: auto;
   margin-right: auto;
 }
+
 .margin-horizontal-large {
   margin-left: 20%;
   margin-right: 20%
 }
+
 #portrait {
   max-width: 40%;
   border-radius: 50%;
@@ -63,21 +65,20 @@ footer {
   max-height: 3rem;
 }
 
-.skill--grid {
+.skill-grid {
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+  flex-flow: column wrap;
   align-content: center;
 }
 
-.skill--row {
+.skill-row {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
   justify-content: space-evenly;
 }
 
-.skill--item {
+.skill-item {
   max-width: 256px;
   padding: 1rem;
   background-color: white;
@@ -87,9 +88,9 @@ footer {
   margin: 1rem;
   box-shadow: 2px 2px black;
 }
-.skill--image {
-  
+
+.skill-image {  
   min-height: 48px;
-  padding: 0px;
-  margin: 0px;
+  padding: 1px;
+  margin: 1px;
 }
